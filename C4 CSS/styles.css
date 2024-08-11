@@ -1,0 +1,43 @@
+body{
+    background-color: chocolatey;
+}
+
+h4{
+    background-color: brown;
+}
+
+.title{
+    font-size: 3em;
+    color: crimson;    
+}
+
+#principal{
+    font-size: 70px;
+    
+
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 60svw;
+    margin: auto;
+    padding: 3em;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.cards:hover{
+    background-color: yellow;
+}
+
