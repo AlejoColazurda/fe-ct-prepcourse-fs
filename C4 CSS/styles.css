@@ -18,26 +18,46 @@ h4{
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    
 }
 
 #titulos{
-    border: 2px solid black;
     width: 60svw;
     margin: auto;
     padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cards{
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
     border-radius: 10%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
 }
 
 .cards:hover{
     background-color: yellow;
 }
+
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(81, 78, 78);
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 
